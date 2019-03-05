@@ -1,4 +1,10 @@
-# Install Helm and Draft
+# Start Kubernetes
+
+First, you will need to start your Kubernetes cluster:
+
+`launch.sh`{{execute}}
+
+# Install Helm
 
 Draft uses Helm under the covers in order to generate deployable packages. Let's install Helm:
 
@@ -7,6 +13,8 @@ Draft uses Helm under the covers in order to generate deployable packages. Let's
 And initialize it:
 
 `helm init`{{execute}}
+
+# Install Draft
 
 Now that Helm is installed and configured, you can install Draft:
 
